@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="rander" content="webkit">
+    <meta name="viewport" content="width = device-width,initital-scale = 1.0, user-scalable = no,">
+    <title>WEB APP</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body style="background: #f5f5f5;">
+<div class="wrapper">
+    <div class="back-page">
+        <a class="left" href="javascript:history.go(-1);">返回</a>
+        <span class="center">消息中心</span>
+    </div>
+    <div class="notice">
+        <div class="none">
+            暂无消息未读~~~~
+        </div>
+        <ul class="news">
+            <li class="new">您提出的退款申请已经通过！<p>2016-2-1</p></li>
+            <li class="new">恭喜您，订阅成功！<p>2015-10-30</p></li>
+            <li class="new">您说的是不是神经病，这么多字怎么可能放的下呢，你还是少放写字比较好~~<p>2015-10-30</p></li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(".menu").click(function(){
+        $(".menu-down").css("visibility","visible");
+    });
+</script>
+</body>
+</html>

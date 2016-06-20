@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="rander" content="webkit">
+    <meta name="viewport" content="width = device-width,initital-scale = 1.0, user-scalable = no,">
+    <title>WEB APP</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="back-page">
+        <a class="left" href="javascript:history.go(-1);">返回</a>
+        <span class="center">个人中心</span>
+        <a href="notice.html" class="right">消息</a>
+    </div>
+
+    <div class="main2">
+        <div class="photo">
+            <dl class="user-pic">
+                <dt><img src="img/pic4.jpg"/></dt>
+                <dd>152****8089</dd>
+            </dl>
+        </div>
+        <div class="order">
+            <a href="order.html" class="order-bar bb">我的订单 <span class="link">全部</span></a>
+            <ul class="order-classify">
+                <li><a href="order.html">待付款（<span class="cl-red">1</span>）</a></li>
+                <li><a href="order.html">待收货（<span class="cl-red">0</span>）</a></li>
+                <li><a href="order.html">待评价（<span class="cl-red">0</span>）</a></li>
+                <li><a href="fund.html">退货退款（<span class="cl-red">0</span>）</a></li>
+            </ul>
+        </div>
+        <div class="order">
+            <a href="manage.html" class="order-bar bb">
+                商品管理<span class="link"></span>
+            </a>
+        </div>
+        <div class="order">
+            <a href="address.html"  class="order-bar bb">
+                地址管理 <span class="link"></span>
+            </a>
+            <a href="coupon.html"  class="order-bar bb">
+                优惠券 <span class="link"></span>
+            </a>
+        </div>
+        <div class="order">
+            <a href="contact.html" class="order-bar">
+                联系我们 <span class="link"></span>
+            </a>
+            <a href="about.html" class="order-bar bb">
+                关于我们 <span class="link"></span>
+            </a>
+        </div>
+        <p class="out-login">
+            <a href="javascript:;">退出登录</a>
+        </p>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(".menu").click(function(){
+        $(".menu-down").css("visibility","visible");
+    });
+</script>
+</body>
+</html>
