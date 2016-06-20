@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="rander" content="webkit">
+    <meta name="viewport" content="width = device-width,initital-scale = 1.0, user-scalable = no,">
+    <title>WEB APP</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body style="background: #fff;">
+<div class="wrapper">
+    <div class="back-page">
+        <a class="left" href="javascript:history.go(-1);">返回</a>
+        <span class="center">新添加地址</span>
+    </div>
+    <div class="add-address">
+        <div class="add-bar">
+            <div class="left"><span class="cl-red">* </span> 收货人姓名</div>
+            <div class="right">
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="add-bar h1">
+            <div class="left"><span class="cl-red">* </span> 收货地址</div>
+            <div class="right">
+                <textarea></textarea>
+            </div>
+        </div>
+        <div class="add-bar">
+            <div class="left"><span class="cl-red">* </span> 手机号码</div>
+            <div class="right">
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="add-bar">
+            <div class="left"><span class="cl-red"></span>邮箱地址</div>
+            <div class="right">
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="default">
+            <input type="checkbox"/>设置为默认
+        </div>
+        <div class="save">
+            <a class="save-btn" href="address.html">保存</a>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(".menu").click(function(){
+        $(".menu-down").css("visibility","visible");
+    });
+</script>
+</body>
+</html>
