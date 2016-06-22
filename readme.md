@@ -4,10 +4,4 @@
 ###下面给一些截图展示一下：
 
 ![Mou icon](/Users/Eva/Desktop/01.png)
-![Mou icon](/Users/Eva/Desktop/02.png)
-![Mou icon](/Users/Eva/Desktop/03.png)
-![Mou icon](/Users/Eva/Desktop/04.png)
-![Mou icon](/Users/Eva/Desktop/05.png)
-![Mou icon](/Users/Eva/Desktop/06.png)
-![Mou icon](/Users/Eva/Desktop/07.png)
 
