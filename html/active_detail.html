@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="rander" content="webkit">
+    <meta name="viewport" content="width = device-width,initital-scale = 1.0, user-scalable = no,">
+    <title>WEB APP</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="back-page">
+        <a class="left" href="javascript:history.go(-1);">返回</a>
+        <span class="center">物智体验</span>
+    </div>
+    <div class="main">
+        <div class="active">
+            <h4 class="top"><span class="cl-red pr10">[第五期]</span> 2016上海体验活动报名</h4>
+            <div class="active-list">
+                <dl class="detail-item">
+                    <dt>
+                        <img src="img/pic22.jpg"/>
+                        <span class="last-bg"></span>
+                        <span class="last-time">剩余时间：<b class="hour">12</b>天<b class="hour">12</b>时<b class="hour">12</b>分<b class="hour">12</b>秒</span>
+                    </dt>
+                    <dd>
+                        <a href="active_detail.html" class="tit">上海体验活动报名</a>
+                        <span class="time">活动地点：<b>上海</b></span>
+                        <a href="active_detail.html" class="txt">上海体验活动报名上海体验活动报名上海体验活动报名上海体验活动报名上海体验活动报名上海体验活动报名上海体验活动报名上海体验活动报名</a>
+                        <span class="time">报名人数：<b class="num">345</b> 人 </span>
+                        <span class="time"><a class="btn btn2" href="">立即报名</a></span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="introduce">
+            <ul class="bar">
+                <li><a href="#introduction">活动介绍</a></li>
+                <li><a href="#disscussion">讨论区</a></li>
+            </ul>
+            <div id="introduction" class="intro">
+                <img src="img/pic22.jpg" alt=""/>
+            </div>
+            <div id="disscussion" class="diss">
+                <div class="bar">讨论区</div>
+                <div class="comment-function">
+                    <textarea class="comment"></textarea>
+                    <button class="save-btn">提交</button>
+                    <span class="tip">还能输入 <i>160</i>个字</span>
+                </div>
+
+
+                <div class="list-info">
+                    <!--<div class="info-left"><img src="img/pic5.jpg"></div>-->
+                    <div class="info-right">
+                        <div class="user">
+                            <h3>夏普美奴说</h3>
+                            <!--<span class="timer">2016-12-28</span>-->
+                        </div>
+                        <div class="reply">
+                            <h4>李斯特</h4>
+                            <p>才能到家啊才拿到手那次三次承诺是调查</p>
+                        </div>
+                        <div class="info">
+                           <a href="javascript:;" onClick="showComment(this, '11')">回复</a>
+                            房地产业在下行区间，国家再怎么鼓励房企降价、再怎么让农村人口进城买房落户，也行不通了。
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(".menu").click(function(){
+        $(".menu-down").css("visibility","visible");
+    });
+</script>
+</body>
+</html>
